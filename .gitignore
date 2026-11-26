@@ -1,0 +1,20 @@
+# Local credentials and connection settings
+.env
+.env.*
+!.env.example
+.pgpass
+pgpass.conf
+connections.toml
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Downloaded source datasets
+/data/
